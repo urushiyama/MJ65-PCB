@@ -1,0 +1,2701 @@
+EESchema Schematic File Version 4
+LIBS:MJ65-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4100 800  0    50   ~ 0
+R0
+Text Label 4100 1550 0    50   ~ 0
+R1
+Text Label 4100 2300 0    50   ~ 0
+R2
+Text Label 4100 3500 0    50   ~ 0
+R3
+Text Label 4100 4700 0    50   ~ 0
+R4
+$Comp
+L Switch:SW_Push SW0_1
+U 1 1 5C772226
+P 5650 1200
+F 0 "SW0_1" H 5650 1485 50  0000 C CNN
+F 1 "SW_Push" H 5650 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 5650 1400 50  0001 C CNN
+F 3 "" H 5650 1400 50  0001 C CNN
+	1    5650 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_1
+U 1 1 5C77222D
+P 5450 1050
+F 0 "D0_1" H 5450 1315 50  0000 C CNN
+F 1 "DIODE" H 5450 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 1050 50  0001 C CNN
+F 3 "~" H 5450 1050 50  0001 C CNN
+	1    5450 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_1
+U 1 1 5C772234
+P 5650 1950
+F 0 "SW1_1" H 5650 2235 50  0000 C CNN
+F 1 "SW_Push" H 5650 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_150H" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5650 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_1
+U 1 1 5C77223B
+P 5450 1800
+F 0 "D1_1" H 5450 2065 50  0000 C CNN
+F 1 "DIODE" H 5450 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 1800 50  0001 C CNN
+F 3 "~" H 5450 1800 50  0001 C CNN
+	1    5450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_1
+U 1 1 5C772242
+P 5650 2700
+F 0 "SW2_1" H 5650 2985 50  0000 C CNN
+F 1 "SW_Push" H 5650 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_175H" H 5650 2900 50  0001 C CNN
+F 3 "" H 5650 2900 50  0001 C CNN
+	1    5650 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_1
+U 1 1 5C772249
+P 5450 2550
+F 0 "D2_1" H 5450 2815 50  0000 C CNN
+F 1 "DIODE" H 5450 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 2550 50  0001 C CNN
+F 3 "~" H 5450 2550 50  0001 C CNN
+	1    5450 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_1
+U 1 1 5C772250
+P 5650 3900
+F 0 "SW3_1" H 5650 4185 50  0000 C CNN
+F 1 "SW_Push" H 5650 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_225H" H 5650 4100 50  0001 C CNN
+F 3 "" H 5650 4100 50  0001 C CNN
+	1    5650 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_1
+U 1 1 5C772257
+P 5450 3750
+F 0 "D3_1" H 5450 4015 50  0000 C CNN
+F 1 "DIODE" H 5450 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 3750 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_1
+U 1 1 5C77225E
+P 5650 5100
+F 0 "SW4_1" H 5650 5385 50  0000 C CNN
+F 1 "SW_Push" H 5650 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_150H" H 5650 5300 50  0001 C CNN
+F 3 "" H 5650 5300 50  0001 C CNN
+	1    5650 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_1
+U 1 1 5C772265
+P 5450 4950
+F 0 "D4_1" H 5450 5215 50  0000 C CNN
+F 1 "DIODE" H 5450 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 4950 50  0001 C CNN
+F 3 "~" H 5450 4950 50  0001 C CNN
+	1    5450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 1200 5850 1950
+Connection ~ 5850 1950
+Wire Wire Line
+	5850 1950 5850 2700
+Connection ~ 5850 2700
+Wire Wire Line
+	5850 2700 5850 3900
+Connection ~ 5850 3900
+Wire Wire Line
+	5850 3900 5850 5100
+Connection ~ 5850 5100
+$Comp
+L Switch:SW_Push SW0_2
+U 1 1 5C772A2C
+P 6350 1200
+F 0 "SW0_2" H 6350 1485 50  0000 C CNN
+F 1 "SW_Push" H 6350 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 6350 1400 50  0001 C CNN
+F 3 "" H 6350 1400 50  0001 C CNN
+	1    6350 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_2
+U 1 1 5C772A33
+P 6150 1050
+F 0 "D0_2" H 6150 1315 50  0000 C CNN
+F 1 "DIODE" H 6150 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6150 1050 50  0001 C CNN
+F 3 "~" H 6150 1050 50  0001 C CNN
+	1    6150 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_2
+U 1 1 5C772A3A
+P 6350 1950
+F 0 "SW1_2" H 6350 2235 50  0000 C CNN
+F 1 "SW_Push" H 6350 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 6350 2150 50  0001 C CNN
+F 3 "" H 6350 2150 50  0001 C CNN
+	1    6350 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_2
+U 1 1 5C772A41
+P 6150 1800
+F 0 "D1_2" H 6150 2065 50  0000 C CNN
+F 1 "DIODE" H 6150 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6150 1800 50  0001 C CNN
+F 3 "~" H 6150 1800 50  0001 C CNN
+	1    6150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_2
+U 1 1 5C772A48
+P 6350 2700
+F 0 "SW2_2" H 6350 2985 50  0000 C CNN
+F 1 "SW_Push" H 6350 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 6350 2900 50  0001 C CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+	1    6350 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_2
+U 1 1 5C772A4F
+P 6150 2550
+F 0 "D2_2" H 6150 2815 50  0000 C CNN
+F 1 "DIODE" H 6150 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6150 2550 50  0001 C CNN
+F 3 "~" H 6150 2550 50  0001 C CNN
+	1    6150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_2
+U 1 1 5C772A56
+P 6350 3900
+F 0 "SW3_2" H 6350 4185 50  0000 C CNN
+F 1 "SW_Push" H 6350 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 6350 4100 50  0001 C CNN
+F 3 "" H 6350 4100 50  0001 C CNN
+	1    6350 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_2
+U 1 1 5C772A5D
+P 6150 3750
+F 0 "D3_2" H 6150 4015 50  0000 C CNN
+F 1 "DIODE" H 6150 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6150 3750 50  0001 C CNN
+F 3 "~" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_2
+U 1 1 5C772A64
+P 6350 5100
+F 0 "SW4_2" H 6350 5385 50  0000 C CNN
+F 1 "SW_Push" H 6350 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 6350 5300 50  0001 C CNN
+F 3 "" H 6350 5300 50  0001 C CNN
+	1    6350 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_2
+U 1 1 5C772A6B
+P 6150 4950
+F 0 "D4_2" H 6150 5215 50  0000 C CNN
+F 1 "DIODE" H 6150 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6150 4950 50  0001 C CNN
+F 3 "~" H 6150 4950 50  0001 C CNN
+	1    6150 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1200 6550 1950
+Connection ~ 6550 1950
+Wire Wire Line
+	6550 1950 6550 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	6550 2700 6550 3900
+Connection ~ 6550 3900
+Wire Wire Line
+	6550 3900 6550 5100
+Connection ~ 6550 5100
+$Comp
+L Switch:SW_Push SW0_3
+U 1 1 5C773544
+P 7050 1200
+F 0 "SW0_3" H 7050 1485 50  0000 C CNN
+F 1 "SW_Push" H 7050 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7050 1400 50  0001 C CNN
+F 3 "" H 7050 1400 50  0001 C CNN
+	1    7050 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_3
+U 1 1 5C77354B
+P 6850 1050
+F 0 "D0_3" H 6850 1315 50  0000 C CNN
+F 1 "DIODE" H 6850 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6850 1050 50  0001 C CNN
+F 3 "~" H 6850 1050 50  0001 C CNN
+	1    6850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_3
+U 1 1 5C773552
+P 7050 1950
+F 0 "SW1_3" H 7050 2235 50  0000 C CNN
+F 1 "SW_Push" H 7050 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7050 2150 50  0001 C CNN
+F 3 "" H 7050 2150 50  0001 C CNN
+	1    7050 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_3
+U 1 1 5C773559
+P 6850 1800
+F 0 "D1_3" H 6850 2065 50  0000 C CNN
+F 1 "DIODE" H 6850 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6850 1800 50  0001 C CNN
+F 3 "~" H 6850 1800 50  0001 C CNN
+	1    6850 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_3
+U 1 1 5C773560
+P 7050 2700
+F 0 "SW2_3" H 7050 2985 50  0000 C CNN
+F 1 "SW_Push" H 7050 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7050 2900 50  0001 C CNN
+F 3 "" H 7050 2900 50  0001 C CNN
+	1    7050 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_3
+U 1 1 5C773567
+P 6850 2550
+F 0 "D2_3" H 6850 2815 50  0000 C CNN
+F 1 "DIODE" H 6850 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6850 2550 50  0001 C CNN
+F 3 "~" H 6850 2550 50  0001 C CNN
+	1    6850 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_3
+U 1 1 5C77356E
+P 7050 3900
+F 0 "SW3_3" H 7050 4185 50  0000 C CNN
+F 1 "SW_Push" H 7050 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7050 4100 50  0001 C CNN
+F 3 "" H 7050 4100 50  0001 C CNN
+	1    7050 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_3
+U 1 1 5C773575
+P 6850 3750
+F 0 "D3_3" H 6850 4015 50  0000 C CNN
+F 1 "DIODE" H 6850 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6850 3750 50  0001 C CNN
+F 3 "~" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_3
+U 1 1 5C77357C
+P 7050 5100
+F 0 "SW4_3" H 7050 5385 50  0000 C CNN
+F 1 "SW_Push" H 7050 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_125H" H 7050 5300 50  0001 C CNN
+F 3 "" H 7050 5300 50  0001 C CNN
+	1    7050 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_3
+U 1 1 5C773583
+P 6850 4950
+F 0 "D4_3" H 6850 5215 50  0000 C CNN
+F 1 "DIODE" H 6850 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 6850 4950 50  0001 C CNN
+F 3 "~" H 6850 4950 50  0001 C CNN
+	1    6850 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 1200 7250 1950
+Connection ~ 7250 1950
+Wire Wire Line
+	7250 1950 7250 2700
+Connection ~ 7250 2700
+Wire Wire Line
+	7250 2700 7250 3900
+Connection ~ 7250 3900
+Wire Wire Line
+	7250 3900 7250 5100
+Connection ~ 7250 5100
+$Comp
+L Switch:SW_Push SW0_4
+U 1 1 5C7744C0
+P 7750 1200
+F 0 "SW0_4" H 7750 1485 50  0000 C CNN
+F 1 "SW_Push" H 7750 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7750 1400 50  0001 C CNN
+F 3 "" H 7750 1400 50  0001 C CNN
+	1    7750 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_4
+U 1 1 5C7744C7
+P 7550 1050
+F 0 "D0_4" H 7550 1315 50  0000 C CNN
+F 1 "DIODE" H 7550 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 7550 1050 50  0001 C CNN
+F 3 "~" H 7550 1050 50  0001 C CNN
+	1    7550 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_4
+U 1 1 5C7744CE
+P 7750 1950
+F 0 "SW1_4" H 7750 2235 50  0000 C CNN
+F 1 "SW_Push" H 7750 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7750 2150 50  0001 C CNN
+F 3 "" H 7750 2150 50  0001 C CNN
+	1    7750 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_4
+U 1 1 5C7744D5
+P 7550 1800
+F 0 "D1_4" H 7550 2065 50  0000 C CNN
+F 1 "DIODE" H 7550 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 7550 1800 50  0001 C CNN
+F 3 "~" H 7550 1800 50  0001 C CNN
+	1    7550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_4
+U 1 1 5C7744DC
+P 7750 2700
+F 0 "SW2_4" H 7750 2985 50  0000 C CNN
+F 1 "SW_Push" H 7750 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7750 2900 50  0001 C CNN
+F 3 "" H 7750 2900 50  0001 C CNN
+	1    7750 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_4
+U 1 1 5C7744E3
+P 7550 2550
+F 0 "D2_4" H 7550 2815 50  0000 C CNN
+F 1 "DIODE" H 7550 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 7550 2550 50  0001 C CNN
+F 3 "~" H 7550 2550 50  0001 C CNN
+	1    7550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_4
+U 1 1 5C7744EA
+P 7750 3900
+F 0 "SW3_4" H 7750 4185 50  0000 C CNN
+F 1 "SW_Push" H 7750 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 7750 4100 50  0001 C CNN
+F 3 "" H 7750 4100 50  0001 C CNN
+	1    7750 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_4
+U 1 1 5C7744F1
+P 7550 3750
+F 0 "D3_4" H 7550 4015 50  0000 C CNN
+F 1 "DIODE" H 7550 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 7550 3750 50  0001 C CNN
+F 3 "~" H 7550 3750 50  0001 C CNN
+	1    7550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_4
+U 1 1 5C7744F8
+P 7750 5100
+F 0 "SW4_4" H 7750 5385 50  0000 C CNN
+F 1 "SW_Push" H 7750 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_125H" H 7750 5300 50  0001 C CNN
+F 3 "" H 7750 5300 50  0001 C CNN
+	1    7750 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_4
+U 1 1 5C7744FF
+P 7550 4950
+F 0 "D4_4" H 7550 5215 50  0000 C CNN
+F 1 "DIODE" H 7550 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 7550 4950 50  0001 C CNN
+F 3 "~" H 7550 4950 50  0001 C CNN
+	1    7550 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1200 7950 1950
+Connection ~ 7950 1950
+Wire Wire Line
+	7950 1950 7950 2700
+Connection ~ 7950 2700
+Wire Wire Line
+	7950 2700 7950 3900
+Connection ~ 7950 3900
+Wire Wire Line
+	7950 3900 7950 5100
+Connection ~ 7950 5100
+$Comp
+L Switch:SW_Push SW0_5
+U 1 1 5C775A97
+P 8450 1200
+F 0 "SW0_5" H 8450 1485 50  0000 C CNN
+F 1 "SW_Push" H 8450 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 8450 1400 50  0001 C CNN
+F 3 "" H 8450 1400 50  0001 C CNN
+	1    8450 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_5
+U 1 1 5C775A9E
+P 8250 1050
+F 0 "D0_5" H 8250 1315 50  0000 C CNN
+F 1 "DIODE" H 8250 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8250 1050 50  0001 C CNN
+F 3 "~" H 8250 1050 50  0001 C CNN
+	1    8250 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_5
+U 1 1 5C775AA5
+P 8450 1950
+F 0 "SW1_5" H 8450 2235 50  0000 C CNN
+F 1 "SW_Push" H 8450 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 8450 2150 50  0001 C CNN
+F 3 "" H 8450 2150 50  0001 C CNN
+	1    8450 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_5
+U 1 1 5C775AAC
+P 8250 1800
+F 0 "D1_5" H 8250 2065 50  0000 C CNN
+F 1 "DIODE" H 8250 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8250 1800 50  0001 C CNN
+F 3 "~" H 8250 1800 50  0001 C CNN
+	1    8250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_5
+U 1 1 5C775AB3
+P 8450 2700
+F 0 "SW2_5" H 8450 2985 50  0000 C CNN
+F 1 "SW_Push" H 8450 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 8450 2900 50  0001 C CNN
+F 3 "" H 8450 2900 50  0001 C CNN
+	1    8450 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_5
+U 1 1 5C775ABA
+P 8250 2550
+F 0 "D2_5" H 8250 2815 50  0000 C CNN
+F 1 "DIODE" H 8250 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8250 2550 50  0001 C CNN
+F 3 "~" H 8250 2550 50  0001 C CNN
+	1    8250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_5
+U 1 1 5C775AC1
+P 8450 3900
+F 0 "SW3_5" H 8450 4185 50  0000 C CNN
+F 1 "SW_Push" H 8450 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 8450 4100 50  0001 C CNN
+F 3 "" H 8450 4100 50  0001 C CNN
+	1    8450 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_5
+U 1 1 5C775AC8
+P 8250 3750
+F 0 "D3_5" H 8250 4015 50  0000 C CNN
+F 1 "DIODE" H 8250 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8250 3750 50  0001 C CNN
+F 3 "~" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_5
+U 1 1 5C775ACF
+P 8450 5100
+F 0 "SW4_5" H 8450 5385 50  0000 C CNN
+F 1 "SW_Push" H 8450 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_175H" H 8450 5300 50  0001 C CNN
+F 3 "" H 8450 5300 50  0001 C CNN
+	1    8450 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_5
+U 1 1 5C775AD6
+P 8250 4950
+F 0 "D4_5" H 8250 5215 50  0000 C CNN
+F 1 "DIODE" H 8250 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8250 4950 50  0001 C CNN
+F 3 "~" H 8250 4950 50  0001 C CNN
+	1    8250 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 1200 8650 1950
+Connection ~ 8650 1950
+Wire Wire Line
+	8650 1950 8650 2700
+Connection ~ 8650 2700
+Wire Wire Line
+	8650 2700 8650 3900
+Connection ~ 8650 3900
+Wire Wire Line
+	8650 3900 8650 5100
+Connection ~ 8650 5100
+$Comp
+L Switch:SW_Push SW0_6
+U 1 1 5C7773B6
+P 9150 1200
+F 0 "SW0_6" H 9150 1485 50  0000 C CNN
+F 1 "SW_Push" H 9150 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9150 1400 50  0001 C CNN
+F 3 "" H 9150 1400 50  0001 C CNN
+	1    9150 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_6
+U 1 1 5C7773BD
+P 8950 1050
+F 0 "D0_6" H 8950 1315 50  0000 C CNN
+F 1 "DIODE" H 8950 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 1050 50  0001 C CNN
+F 3 "~" H 8950 1050 50  0001 C CNN
+	1    8950 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_6
+U 1 1 5C7773C4
+P 9150 1950
+F 0 "SW1_6" H 9150 2235 50  0000 C CNN
+F 1 "SW_Push" H 9150 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9150 2150 50  0001 C CNN
+F 3 "" H 9150 2150 50  0001 C CNN
+	1    9150 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_6
+U 1 1 5C7773CB
+P 8950 1800
+F 0 "D1_6" H 8950 2065 50  0000 C CNN
+F 1 "DIODE" H 8950 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 1800 50  0001 C CNN
+F 3 "~" H 8950 1800 50  0001 C CNN
+	1    8950 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_6
+U 1 1 5C7773D2
+P 9150 2700
+F 0 "SW2_6" H 9150 2985 50  0000 C CNN
+F 1 "SW_Push" H 9150 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9150 2900 50  0001 C CNN
+F 3 "" H 9150 2900 50  0001 C CNN
+	1    9150 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_6
+U 1 1 5C7773D9
+P 8950 2550
+F 0 "D2_6" H 8950 2815 50  0000 C CNN
+F 1 "DIODE" H 8950 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 2550 50  0001 C CNN
+F 3 "~" H 8950 2550 50  0001 C CNN
+	1    8950 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_6
+U 1 1 5C7773E0
+P 9150 3900
+F 0 "SW3_6" H 9150 4185 50  0000 C CNN
+F 1 "SW_Push" H 9150 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9150 4100 50  0001 C CNN
+F 3 "" H 9150 4100 50  0001 C CNN
+	1    9150 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_6
+U 1 1 5C7773E7
+P 8950 3750
+F 0 "D3_6" H 8950 4015 50  0000 C CNN
+F 1 "DIODE" H 8950 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 3750 50  0001 C CNN
+F 3 "~" H 8950 3750 50  0001 C CNN
+	1    8950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_6
+U 1 1 5C7773EE
+P 9150 5100
+F 0 "SW4_6" H 9150 5385 50  0000 C CNN
+F 1 "SW_Push" H 9150 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9150 5300 50  0001 C CNN
+F 3 "" H 9150 5300 50  0001 C CNN
+	1    9150 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_6
+U 1 1 5C7773F5
+P 8950 4950
+F 0 "D4_6" H 8950 5215 50  0000 C CNN
+F 1 "DIODE" H 8950 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 4950 50  0001 C CNN
+F 3 "~" H 8950 4950 50  0001 C CNN
+	1    8950 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1200 9350 1950
+Connection ~ 9350 1950
+Wire Wire Line
+	9350 1950 9350 2700
+Connection ~ 9350 2700
+Wire Wire Line
+	9350 2700 9350 3900
+Connection ~ 9350 3900
+Wire Wire Line
+	9350 3900 9350 5100
+Connection ~ 9350 5100
+$Comp
+L Switch:SW_Push SW0_7
+U 1 1 5C77991C
+P 9850 1200
+F 0 "SW0_7" H 9850 1485 50  0000 C CNN
+F 1 "SW_Push" H 9850 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9850 1400 50  0001 C CNN
+F 3 "" H 9850 1400 50  0001 C CNN
+	1    9850 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_7
+U 1 1 5C779923
+P 9650 1050
+F 0 "D0_7" H 9650 1315 50  0000 C CNN
+F 1 "DIODE" H 9650 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 9650 1050 50  0001 C CNN
+F 3 "~" H 9650 1050 50  0001 C CNN
+	1    9650 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_7
+U 1 1 5C77992A
+P 9850 1950
+F 0 "SW1_7" H 9850 2235 50  0000 C CNN
+F 1 "SW_Push" H 9850 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9850 2150 50  0001 C CNN
+F 3 "" H 9850 2150 50  0001 C CNN
+	1    9850 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_7
+U 1 1 5C779931
+P 9650 1800
+F 0 "D1_7" H 9650 2065 50  0000 C CNN
+F 1 "DIODE" H 9650 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 9650 1800 50  0001 C CNN
+F 3 "~" H 9650 1800 50  0001 C CNN
+	1    9650 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_7
+U 1 1 5C779938
+P 9850 2700
+F 0 "SW2_7" H 9850 2985 50  0000 C CNN
+F 1 "SW_Push" H 9850 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9850 2900 50  0001 C CNN
+F 3 "" H 9850 2900 50  0001 C CNN
+	1    9850 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_7
+U 1 1 5C77993F
+P 9650 2550
+F 0 "D2_7" H 9650 2815 50  0000 C CNN
+F 1 "DIODE" H 9650 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 9650 2550 50  0001 C CNN
+F 3 "~" H 9650 2550 50  0001 C CNN
+	1    9650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_7
+U 1 1 5C779946
+P 9850 3900
+F 0 "SW3_7" H 9850 4185 50  0000 C CNN
+F 1 "SW_Push" H 9850 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 9850 4100 50  0001 C CNN
+F 3 "" H 9850 4100 50  0001 C CNN
+	1    9850 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_7
+U 1 1 5C77994D
+P 9650 3750
+F 0 "D3_7" H 9650 4015 50  0000 C CNN
+F 1 "DIODE" H 9650 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 9650 3750 50  0001 C CNN
+F 3 "~" H 9650 3750 50  0001 C CNN
+	1    9650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_7
+U 1 1 5C779954
+P 9850 5100
+F 0 "SW4_7" H 9850 5385 50  0000 C CNN
+F 1 "SW_Push" H 9850 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_175H" H 9850 5300 50  0001 C CNN
+F 3 "" H 9850 5300 50  0001 C CNN
+	1    9850 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_7
+U 1 1 5C77995B
+P 9650 4950
+F 0 "D4_7" H 9650 5215 50  0000 C CNN
+F 1 "DIODE" H 9650 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 9650 4950 50  0001 C CNN
+F 3 "~" H 9650 4950 50  0001 C CNN
+	1    9650 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 1200 10050 1950
+Connection ~ 10050 1950
+Wire Wire Line
+	10050 1950 10050 2700
+Connection ~ 10050 2700
+Wire Wire Line
+	10050 2700 10050 3900
+Connection ~ 10050 3900
+Wire Wire Line
+	10050 3900 10050 5100
+Connection ~ 10050 5100
+$Comp
+L Switch:SW_Push SW0_8
+U 1 1 5C77C04A
+P 10550 1200
+F 0 "SW0_8" H 10550 1485 50  0000 C CNN
+F 1 "SW_Push" H 10550 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 10550 1400 50  0001 C CNN
+F 3 "" H 10550 1400 50  0001 C CNN
+	1    10550 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_8
+U 1 1 5C77C051
+P 10350 1050
+F 0 "D0_8" H 10350 1315 50  0000 C CNN
+F 1 "DIODE" H 10350 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10350 1050 50  0001 C CNN
+F 3 "~" H 10350 1050 50  0001 C CNN
+	1    10350 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_8
+U 1 1 5C77C058
+P 10550 1950
+F 0 "SW1_8" H 10550 2235 50  0000 C CNN
+F 1 "SW_Push" H 10550 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 10550 2150 50  0001 C CNN
+F 3 "" H 10550 2150 50  0001 C CNN
+	1    10550 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_8
+U 1 1 5C77C05F
+P 10350 1800
+F 0 "D1_8" H 10350 2065 50  0000 C CNN
+F 1 "DIODE" H 10350 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10350 1800 50  0001 C CNN
+F 3 "~" H 10350 1800 50  0001 C CNN
+	1    10350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_8
+U 1 1 5C77C066
+P 10550 2700
+F 0 "SW2_8" H 10550 2985 50  0000 C CNN
+F 1 "SW_Push" H 10550 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 10550 2900 50  0001 C CNN
+F 3 "" H 10550 2900 50  0001 C CNN
+	1    10550 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_8
+U 1 1 5C77C06D
+P 10350 2550
+F 0 "D2_8" H 10350 2815 50  0000 C CNN
+F 1 "DIODE" H 10350 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10350 2550 50  0001 C CNN
+F 3 "~" H 10350 2550 50  0001 C CNN
+	1    10350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_8
+U 1 1 5C77C074
+P 10550 3900
+F 0 "SW3_8" H 10550 4185 50  0000 C CNN
+F 1 "SW_Push" H 10550 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 10550 4100 50  0001 C CNN
+F 3 "" H 10550 4100 50  0001 C CNN
+	1    10550 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_8
+U 1 1 5C77C07B
+P 10350 3750
+F 0 "D3_8" H 10350 4015 50  0000 C CNN
+F 1 "DIODE" H 10350 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10350 3750 50  0001 C CNN
+F 3 "~" H 10350 3750 50  0001 C CNN
+	1    10350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_8
+U 1 1 5C77C082
+P 10550 5100
+F 0 "SW4_8" H 10550 5385 50  0000 C CNN
+F 1 "SW_Push" H 10550 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_125H" H 10550 5300 50  0001 C CNN
+F 3 "" H 10550 5300 50  0001 C CNN
+	1    10550 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_8
+U 1 1 5C77C089
+P 10350 4950
+F 0 "D4_8" H 10350 5215 50  0000 C CNN
+F 1 "DIODE" H 10350 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10350 4950 50  0001 C CNN
+F 3 "~" H 10350 4950 50  0001 C CNN
+	1    10350 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10750 1200 10750 1950
+Connection ~ 10750 1950
+Wire Wire Line
+	10750 1950 10750 2700
+Connection ~ 10750 2700
+Wire Wire Line
+	10750 2700 10750 3900
+Connection ~ 10750 3900
+Wire Wire Line
+	10750 3900 10750 5100
+Connection ~ 10750 5100
+$Comp
+L Switch:SW_Push SW0_9
+U 1 1 5C77EC8B
+P 11250 1200
+F 0 "SW0_9" H 11250 1485 50  0000 C CNN
+F 1 "SW_Push" H 11250 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11250 1400 50  0001 C CNN
+F 3 "" H 11250 1400 50  0001 C CNN
+	1    11250 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_9
+U 1 1 5C77EC92
+P 11050 1050
+F 0 "D0_9" H 11050 1315 50  0000 C CNN
+F 1 "DIODE" H 11050 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11050 1050 50  0001 C CNN
+F 3 "~" H 11050 1050 50  0001 C CNN
+	1    11050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_9
+U 1 1 5C77EC99
+P 11250 1950
+F 0 "SW1_9" H 11250 2235 50  0000 C CNN
+F 1 "SW_Push" H 11250 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11250 2150 50  0001 C CNN
+F 3 "" H 11250 2150 50  0001 C CNN
+	1    11250 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_9
+U 1 1 5C77ECA0
+P 11050 1800
+F 0 "D1_9" H 11050 2065 50  0000 C CNN
+F 1 "DIODE" H 11050 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11050 1800 50  0001 C CNN
+F 3 "~" H 11050 1800 50  0001 C CNN
+	1    11050 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_9
+U 1 1 5C77ECA7
+P 11250 2700
+F 0 "SW2_9" H 11250 2985 50  0000 C CNN
+F 1 "SW_Push" H 11250 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11250 2900 50  0001 C CNN
+F 3 "" H 11250 2900 50  0001 C CNN
+	1    11250 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_9
+U 1 1 5C77ECAE
+P 11050 2550
+F 0 "D2_9" H 11050 2815 50  0000 C CNN
+F 1 "DIODE" H 11050 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11050 2550 50  0001 C CNN
+F 3 "~" H 11050 2550 50  0001 C CNN
+	1    11050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_9
+U 1 1 5C77ECB5
+P 11250 3900
+F 0 "SW3_9" H 11250 4185 50  0000 C CNN
+F 1 "SW_Push" H 11250 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11250 4100 50  0001 C CNN
+F 3 "" H 11250 4100 50  0001 C CNN
+	1    11250 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_9
+U 1 1 5C77ECBC
+P 11050 3750
+F 0 "D3_9" H 11050 4015 50  0000 C CNN
+F 1 "DIODE" H 11050 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11050 3750 50  0001 C CNN
+F 3 "~" H 11050 3750 50  0001 C CNN
+	1    11050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_9
+U 1 1 5C77ECC3
+P 11250 5100
+F 0 "SW4_9" H 11250 5385 50  0000 C CNN
+F 1 "SW_Push" H 11250 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 11250 5300 50  0001 C CNN
+F 3 "" H 11250 5300 50  0001 C CNN
+	1    11250 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_9
+U 1 1 5C77ECCA
+P 11050 4950
+F 0 "D4_9" H 11050 5215 50  0000 C CNN
+F 1 "DIODE" H 11050 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11050 4950 50  0001 C CNN
+F 3 "~" H 11050 4950 50  0001 C CNN
+	1    11050 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 1200 11450 1950
+Connection ~ 11450 1950
+Wire Wire Line
+	11450 1950 11450 2700
+Connection ~ 11450 2700
+Wire Wire Line
+	11450 2700 11450 3900
+Connection ~ 11450 3900
+Wire Wire Line
+	11450 3900 11450 5100
+Connection ~ 11450 5100
+$Comp
+L Switch:SW_Push SW0_10
+U 1 1 5C781C84
+P 11950 1200
+F 0 "SW0_10" H 11950 1485 50  0000 C CNN
+F 1 "SW_Push" H 11950 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11950 1400 50  0001 C CNN
+F 3 "" H 11950 1400 50  0001 C CNN
+	1    11950 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_10
+U 1 1 5C781C8B
+P 11750 1050
+F 0 "D0_10" H 11750 1315 50  0000 C CNN
+F 1 "DIODE" H 11750 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11750 1050 50  0001 C CNN
+F 3 "~" H 11750 1050 50  0001 C CNN
+	1    11750 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_10
+U 1 1 5C781C92
+P 11950 1950
+F 0 "SW1_10" H 11950 2235 50  0000 C CNN
+F 1 "SW_Push" H 11950 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11950 2150 50  0001 C CNN
+F 3 "" H 11950 2150 50  0001 C CNN
+	1    11950 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_10
+U 1 1 5C781C99
+P 11750 1800
+F 0 "D1_10" H 11750 2065 50  0000 C CNN
+F 1 "DIODE" H 11750 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11750 1800 50  0001 C CNN
+F 3 "~" H 11750 1800 50  0001 C CNN
+	1    11750 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_10
+U 1 1 5C781CA0
+P 11950 2700
+F 0 "SW2_10" H 11950 2985 50  0000 C CNN
+F 1 "SW_Push" H 11950 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11950 2900 50  0001 C CNN
+F 3 "" H 11950 2900 50  0001 C CNN
+	1    11950 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_10
+U 1 1 5C781CA7
+P 11750 2550
+F 0 "D2_10" H 11750 2815 50  0000 C CNN
+F 1 "DIODE" H 11750 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11750 2550 50  0001 C CNN
+F 3 "~" H 11750 2550 50  0001 C CNN
+	1    11750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_10
+U 1 1 5C781CAE
+P 11950 3900
+F 0 "SW3_10" H 11950 4185 50  0000 C CNN
+F 1 "SW_Push" H 11950 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11950 4100 50  0001 C CNN
+F 3 "" H 11950 4100 50  0001 C CNN
+	1    11950 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_10
+U 1 1 5C781CB5
+P 11750 3750
+F 0 "D3_10" H 11750 4015 50  0000 C CNN
+F 1 "DIODE" H 11750 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11750 3750 50  0001 C CNN
+F 3 "~" H 11750 3750 50  0001 C CNN
+	1    11750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_10
+U 1 1 5C781CBC
+P 11950 5100
+F 0 "SW4_10" H 11950 5385 50  0000 C CNN
+F 1 "SW_Push" H 11950 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_125H" H 11950 5300 50  0001 C CNN
+F 3 "" H 11950 5300 50  0001 C CNN
+	1    11950 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_10
+U 1 1 5C781CC3
+P 11750 4950
+F 0 "D4_10" H 11750 5215 50  0000 C CNN
+F 1 "DIODE" H 11750 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 11750 4950 50  0001 C CNN
+F 3 "~" H 11750 4950 50  0001 C CNN
+	1    11750 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12150 1200 12150 1950
+Connection ~ 12150 1950
+Wire Wire Line
+	12150 1950 12150 2700
+Connection ~ 12150 2700
+Wire Wire Line
+	12150 2700 12150 3900
+Connection ~ 12150 3900
+Wire Wire Line
+	12150 3900 12150 5100
+Connection ~ 12150 5100
+$Comp
+L Switch:SW_Push SW0_11
+U 1 1 5C785628
+P 12650 1200
+F 0 "SW0_11" H 12650 1485 50  0000 C CNN
+F 1 "SW_Push" H 12650 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 12650 1400 50  0001 C CNN
+F 3 "" H 12650 1400 50  0001 C CNN
+	1    12650 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_11
+U 1 1 5C78562F
+P 12450 1050
+F 0 "D0_11" H 12450 1315 50  0000 C CNN
+F 1 "DIODE" H 12450 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 12450 1050 50  0001 C CNN
+F 3 "~" H 12450 1050 50  0001 C CNN
+	1    12450 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_11
+U 1 1 5C785636
+P 12650 1950
+F 0 "SW1_11" H 12650 2235 50  0000 C CNN
+F 1 "SW_Push" H 12650 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 12650 2150 50  0001 C CNN
+F 3 "" H 12650 2150 50  0001 C CNN
+	1    12650 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_11
+U 1 1 5C78563D
+P 12450 1800
+F 0 "D1_11" H 12450 2065 50  0000 C CNN
+F 1 "DIODE" H 12450 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 12450 1800 50  0001 C CNN
+F 3 "~" H 12450 1800 50  0001 C CNN
+	1    12450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_11
+U 1 1 5C785644
+P 12650 2700
+F 0 "SW2_11" H 12650 2985 50  0000 C CNN
+F 1 "SW_Push" H 12650 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 12650 2900 50  0001 C CNN
+F 3 "" H 12650 2900 50  0001 C CNN
+	1    12650 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_11
+U 1 1 5C78564B
+P 12450 2550
+F 0 "D2_11" H 12450 2815 50  0000 C CNN
+F 1 "DIODE" H 12450 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 12450 2550 50  0001 C CNN
+F 3 "~" H 12450 2550 50  0001 C CNN
+	1    12450 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_11
+U 1 1 5C785652
+P 12650 3900
+F 0 "SW3_11" H 12650 4185 50  0000 C CNN
+F 1 "SW_Push" H 12650 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 12650 4100 50  0001 C CNN
+F 3 "" H 12650 4100 50  0001 C CNN
+	1    12650 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_11
+U 1 1 5C785659
+P 12450 3750
+F 0 "D3_11" H 12450 4015 50  0000 C CNN
+F 1 "DIODE" H 12450 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 12450 3750 50  0001 C CNN
+F 3 "~" H 12450 3750 50  0001 C CNN
+	1    12450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_11
+U 1 1 5C785660
+P 12650 5100
+F 0 "SW4_11" H 12650 5385 50  0000 C CNN
+F 1 "SW_Push" H 12650 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 12650 5300 50  0001 C CNN
+F 3 "" H 12650 5300 50  0001 C CNN
+	1    12650 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_11
+U 1 1 5C785667
+P 12450 4950
+F 0 "D4_11" H 12450 5215 50  0000 C CNN
+F 1 "DIODE" H 12450 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 12450 4950 50  0001 C CNN
+F 3 "~" H 12450 4950 50  0001 C CNN
+	1    12450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 1200 12850 1950
+Connection ~ 12850 1950
+Wire Wire Line
+	12850 1950 12850 2700
+Connection ~ 12850 2700
+Wire Wire Line
+	12850 2700 12850 3900
+Connection ~ 12850 3900
+Wire Wire Line
+	12850 3900 12850 5100
+Connection ~ 12850 5100
+$Comp
+L Switch:SW_Push SW0_12
+U 1 1 5C789AA6
+P 13350 1200
+F 0 "SW0_12" H 13350 1485 50  0000 C CNN
+F 1 "SW_Push" H 13350 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 13350 1400 50  0001 C CNN
+F 3 "" H 13350 1400 50  0001 C CNN
+	1    13350 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_12
+U 1 1 5C789AAD
+P 13150 1050
+F 0 "D0_12" H 13150 1315 50  0000 C CNN
+F 1 "DIODE" H 13150 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13150 1050 50  0001 C CNN
+F 3 "~" H 13150 1050 50  0001 C CNN
+	1    13150 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_12
+U 1 1 5C789AB4
+P 13350 1950
+F 0 "SW1_12" H 13350 2235 50  0000 C CNN
+F 1 "SW_Push" H 13350 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 13350 2150 50  0001 C CNN
+F 3 "" H 13350 2150 50  0001 C CNN
+	1    13350 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_12
+U 1 1 5C789ABB
+P 13150 1800
+F 0 "D1_12" H 13150 2065 50  0000 C CNN
+F 1 "DIODE" H 13150 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13150 1800 50  0001 C CNN
+F 3 "~" H 13150 1800 50  0001 C CNN
+	1    13150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_12
+U 1 1 5C789AC2
+P 13350 2700
+F 0 "SW2_12" H 13350 2985 50  0000 C CNN
+F 1 "SW_Push" H 13350 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 13350 2900 50  0001 C CNN
+F 3 "" H 13350 2900 50  0001 C CNN
+	1    13350 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_12
+U 1 1 5C789AC9
+P 13150 2550
+F 0 "D2_12" H 13150 2815 50  0000 C CNN
+F 1 "DIODE" H 13150 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13150 2550 50  0001 C CNN
+F 3 "~" H 13150 2550 50  0001 C CNN
+	1    13150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_12
+U 1 1 5C789AD0
+P 13350 3900
+F 0 "SW3_12" H 13350 4185 50  0000 C CNN
+F 1 "SW_Push" H 13350 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 13350 4100 50  0001 C CNN
+F 3 "" H 13350 4100 50  0001 C CNN
+	1    13350 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_12
+U 1 1 5C789AD7
+P 13150 3750
+F 0 "D3_12" H 13150 4015 50  0000 C CNN
+F 1 "DIODE" H 13150 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13150 3750 50  0001 C CNN
+F 3 "~" H 13150 3750 50  0001 C CNN
+	1    13150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_12
+U 1 1 5C789ADE
+P 13350 5100
+F 0 "SW4_12" H 13350 5385 50  0000 C CNN
+F 1 "SW_Push" H 13350 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_150H" H 13350 5300 50  0001 C CNN
+F 3 "" H 13350 5300 50  0001 C CNN
+	1    13350 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_12
+U 1 1 5C789AE5
+P 13150 4950
+F 0 "D4_12" H 13150 5215 50  0000 C CNN
+F 1 "DIODE" H 13150 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13150 4950 50  0001 C CNN
+F 3 "~" H 13150 4950 50  0001 C CNN
+	1    13150 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13550 1200 13550 1950
+Connection ~ 13550 1950
+Wire Wire Line
+	13550 1950 13550 2700
+Connection ~ 13550 2700
+Wire Wire Line
+	13550 2700 13550 3900
+Connection ~ 13550 3900
+Wire Wire Line
+	13550 3900 13550 5100
+Connection ~ 13550 5100
+$Comp
+L Switch:SW_Push SW0_13
+U 1 1 5C78EA01
+P 14050 1200
+F 0 "SW0_13" H 14050 1485 50  0000 C CNN
+F 1 "SW_Push" H 14050 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14050 1400 50  0001 C CNN
+F 3 "" H 14050 1400 50  0001 C CNN
+	1    14050 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_13
+U 1 1 5C78EA08
+P 13850 1050
+F 0 "D0_13" H 13850 1315 50  0000 C CNN
+F 1 "DIODE" H 13850 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13850 1050 50  0001 C CNN
+F 3 "~" H 13850 1050 50  0001 C CNN
+	1    13850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_13
+U 1 1 5C78EA0F
+P 14050 1950
+F 0 "SW1_13" H 14050 2235 50  0000 C CNN
+F 1 "SW_Push" H 14050 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14050 2150 50  0001 C CNN
+F 3 "" H 14050 2150 50  0001 C CNN
+	1    14050 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_13
+U 1 1 5C78EA16
+P 13850 1800
+F 0 "D1_13" H 13850 2065 50  0000 C CNN
+F 1 "DIODE" H 13850 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13850 1800 50  0001 C CNN
+F 3 "~" H 13850 1800 50  0001 C CNN
+	1    13850 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_13
+U 1 1 5C78EA1D
+P 14050 2700
+F 0 "SW2_13" H 14050 2985 50  0000 C CNN
+F 1 "SW_Push" H 14050 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14050 2900 50  0001 C CNN
+F 3 "" H 14050 2900 50  0001 C CNN
+	1    14050 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_13
+U 1 1 5C78EA24
+P 13850 2550
+F 0 "D2_13" H 13850 2815 50  0000 C CNN
+F 1 "DIODE" H 13850 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13850 2550 50  0001 C CNN
+F 3 "~" H 13850 2550 50  0001 C CNN
+	1    13850 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_13
+U 1 1 5C78EA2B
+P 14050 3900
+F 0 "SW3_13" H 14050 4185 50  0000 C CNN
+F 1 "SW_Push" H 14050 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 14050 4100 50  0001 C CNN
+F 3 "" H 14050 4100 50  0001 C CNN
+	1    14050 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_13
+U 1 1 5C78EA32
+P 13850 3750
+F 0 "D3_13" H 13850 4015 50  0000 C CNN
+F 1 "DIODE" H 13850 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13850 3750 50  0001 C CNN
+F 3 "~" H 13850 3750 50  0001 C CNN
+	1    13850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_13
+U 1 1 5C78EA39
+P 14050 5100
+F 0 "SW4_13" H 14050 5385 50  0000 C CNN
+F 1 "SW_Push" H 14050 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 14050 5300 50  0001 C CNN
+F 3 "" H 14050 5300 50  0001 C CNN
+	1    14050 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_13
+U 1 1 5C78EA40
+P 13850 4950
+F 0 "D4_13" H 13850 5215 50  0000 C CNN
+F 1 "DIODE" H 13850 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 13850 4950 50  0001 C CNN
+F 3 "~" H 13850 4950 50  0001 C CNN
+	1    13850 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14250 1200 14250 1950
+Connection ~ 14250 1950
+Wire Wire Line
+	14250 1950 14250 2700
+Connection ~ 14250 2700
+Wire Wire Line
+	14250 2700 14250 3900
+Connection ~ 14250 3900
+Wire Wire Line
+	14250 3900 14250 5100
+Connection ~ 14250 5100
+$Comp
+L Switch:SW_Push SW0_14
+U 1 1 5C7941D0
+P 14750 1200
+F 0 "SW0_14" H 14750 1485 50  0000 C CNN
+F 1 "SW_Push" H 14750 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14750 1400 50  0001 C CNN
+F 3 "" H 14750 1400 50  0001 C CNN
+	1    14750 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_14
+U 1 1 5C7941D7
+P 14550 1050
+F 0 "D0_14" H 14550 1315 50  0000 C CNN
+F 1 "DIODE" H 14550 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 14550 1050 50  0001 C CNN
+F 3 "~" H 14550 1050 50  0001 C CNN
+	1    14550 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_14
+U 1 1 5C7941DE
+P 14750 1950
+F 0 "SW1_14" H 14750 2235 50  0000 C CNN
+F 1 "SW_Push" H 14750 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 14750 2150 50  0001 C CNN
+F 3 "" H 14750 2150 50  0001 C CNN
+	1    14750 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_14
+U 1 1 5C7941E5
+P 14550 1800
+F 0 "D1_14" H 14550 2065 50  0000 C CNN
+F 1 "DIODE" H 14550 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 14550 1800 50  0001 C CNN
+F 3 "~" H 14550 1800 50  0001 C CNN
+	1    14550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_14
+U 1 1 5C7941EC
+P 14750 2700
+F 0 "SW2_14" H 14750 2985 50  0000 C CNN
+F 1 "SW_Push" H 14750 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 14750 2900 50  0001 C CNN
+F 3 "" H 14750 2900 50  0001 C CNN
+	1    14750 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_14
+U 1 1 5C7941F3
+P 14550 2550
+F 0 "D2_14" H 14550 2815 50  0000 C CNN
+F 1 "DIODE" H 14550 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 14550 2550 50  0001 C CNN
+F 3 "~" H 14550 2550 50  0001 C CNN
+	1    14550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_14
+U 1 1 5C7941FA
+P 14750 3900
+F 0 "SW3_14" H 14750 4185 50  0000 C CNN
+F 1 "SW_Push" H 14750 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 14750 4100 50  0001 C CNN
+F 3 "" H 14750 4100 50  0001 C CNN
+	1    14750 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_14
+U 1 1 5C794201
+P 14550 3750
+F 0 "D3_14" H 14550 4015 50  0000 C CNN
+F 1 "DIODE" H 14550 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 14550 3750 50  0001 C CNN
+F 3 "~" H 14550 3750 50  0001 C CNN
+	1    14550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_14
+U 1 1 5C794208
+P 14750 5100
+F 0 "SW4_14" H 14750 5385 50  0000 C CNN
+F 1 "SW_Push" H 14750 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14750 5300 50  0001 C CNN
+F 3 "" H 14750 5300 50  0001 C CNN
+	1    14750 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_14
+U 1 1 5C79420F
+P 14550 4950
+F 0 "D4_14" H 14550 5215 50  0000 C CNN
+F 1 "DIODE" H 14550 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 14550 4950 50  0001 C CNN
+F 3 "~" H 14550 4950 50  0001 C CNN
+	1    14550 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 1200 14950 1950
+Connection ~ 14950 1950
+Wire Wire Line
+	14950 1950 14950 2700
+Connection ~ 14950 2700
+Wire Wire Line
+	14950 2700 14950 3900
+Connection ~ 14950 3900
+Wire Wire Line
+	14950 3900 14950 5100
+Connection ~ 14950 5100
+Text Label 5150 5750 0    50   ~ 0
+C0
+Text Label 5850 5750 0    50   ~ 0
+C1
+Text Label 6550 5750 0    50   ~ 0
+C2
+Text Label 7250 5750 0    50   ~ 0
+C3
+Text Label 7950 5750 0    50   ~ 0
+C4
+Text Label 8650 5750 0    50   ~ 0
+C5
+Text Label 9350 5750 0    50   ~ 0
+C6
+Text Label 10050 5750 0    50   ~ 0
+C7
+Text Label 10750 5750 0    50   ~ 0
+C8
+Text Label 11450 5750 0    50   ~ 0
+C9
+Text Label 12150 5750 0    50   ~ 0
+C10
+Text Label 12850 5750 0    50   ~ 0
+C11
+Text Label 13550 5750 0    50   ~ 0
+C12
+Text Label 14250 5750 0    50   ~ 0
+C13
+Text Label 14950 5750 0    50   ~ 0
+C14
+$Comp
+L Switch:SW_Push SW0_15
+U 1 1 5C935546
+P 15450 1200
+F 0 "SW0_15" H 15450 1485 50  0000 C CNN
+F 1 "SW_Push" H 15450 1394 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 15450 1400 50  0001 C CNN
+F 3 "" H 15450 1400 50  0001 C CNN
+	1    15450 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D0_15
+U 1 1 5C93554D
+P 15250 1050
+F 0 "D0_15" H 15250 1315 50  0000 C CNN
+F 1 "DIODE" H 15250 1224 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 15250 1050 50  0001 C CNN
+F 3 "~" H 15250 1050 50  0001 C CNN
+	1    15250 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1_15
+U 1 1 5C935554
+P 15450 1950
+F 0 "SW1_15" H 15450 2235 50  0000 C CNN
+F 1 "SW_Push" H 15450 2144 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_150H" H 15450 2150 50  0001 C CNN
+F 3 "" H 15450 2150 50  0001 C CNN
+	1    15450 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D1_15
+U 1 1 5C93555B
+P 15250 1800
+F 0 "D1_15" H 15250 2065 50  0000 C CNN
+F 1 "DIODE" H 15250 1974 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 15250 1800 50  0001 C CNN
+F 3 "~" H 15250 1800 50  0001 C CNN
+	1    15250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2_15
+U 1 1 5C935562
+P 15450 2700
+F 0 "SW2_15" H 15450 2985 50  0000 C CNN
+F 1 "SW_Push" H 15450 2894 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_200V" H 15450 2900 50  0001 C CNN
+F 3 "" H 15450 2900 50  0001 C CNN
+	1    15450 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D2_15
+U 1 1 5C935569
+P 15250 2550
+F 0 "D2_15" H 15250 2815 50  0000 C CNN
+F 1 "DIODE" H 15250 2724 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 15250 2550 50  0001 C CNN
+F 3 "~" H 15250 2550 50  0001 C CNN
+	1    15250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3_15
+U 1 1 5C935570
+P 15450 3900
+F 0 "SW3_15" H 15450 4185 50  0000 C CNN
+F 1 "SW_Push" H 15450 4094 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_175H" H 15450 4100 50  0001 C CNN
+F 3 "" H 15450 4100 50  0001 C CNN
+	1    15450 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3_15
+U 1 1 5C935577
+P 15250 3750
+F 0 "D3_15" H 15250 4015 50  0000 C CNN
+F 1 "DIODE" H 15250 3924 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 15250 3750 50  0001 C CNN
+F 3 "~" H 15250 3750 50  0001 C CNN
+	1    15250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4_15
+U 1 1 5C93557E
+P 15450 5100
+F 0 "SW4_15" H 15450 5385 50  0000 C CNN
+F 1 "SW_Push" H 15450 5294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_150H" H 15450 5300 50  0001 C CNN
+F 3 "" H 15450 5300 50  0001 C CNN
+	1    15450 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D4_15
+U 1 1 5C935585
+P 15250 4950
+F 0 "D4_15" H 15250 5215 50  0000 C CNN
+F 1 "DIODE" H 15250 5124 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 15250 4950 50  0001 C CNN
+F 3 "~" H 15250 4950 50  0001 C CNN
+	1    15250 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15650 1200 15650 1950
+Connection ~ 15650 1950
+Wire Wire Line
+	15650 1950 15650 2700
+Connection ~ 15650 2700
+Wire Wire Line
+	15650 2700 15650 3100
+Connection ~ 15650 3900
+Wire Wire Line
+	15650 3900 15650 4300
+Connection ~ 15650 5100
+Text Label 15650 5750 0    50   ~ 0
+C15
+$Comp
+L Device:D D4_0
+U 1 1 5C9DD1BC
+P 4650 4950
+F 0 "D4_0" V 4604 5078 50  0000 L CNN
+F 1 "DIODE" V 4695 5078 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 4950 50  0001 C CNN
+F 3 "~" H 4650 4950 50  0001 C CNN
+	1    4650 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3_0
+U 1 1 5CA06939
+P 4650 3750
+F 0 "D3_0" V 4604 3878 50  0000 L CNN
+F 1 "DIODE" V 4695 3878 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2_0
+U 1 1 5CA1A1E0
+P 4650 2550
+F 0 "D2_0" V 4604 2678 50  0000 L CNN
+F 1 "DIODE" V 4695 2678 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1_0
+U 1 1 5CA2C5A4
+P 4650 1800
+F 0 "D1_0" V 4604 1928 50  0000 L CNN
+F 1 "DIODE" V 4695 1928 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 1800 50  0001 C CNN
+F 3 "~" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L MJ65-rescue:Ada32u4-Ada32u4 U0
+U 1 1 5CA88F3C
+P 1850 1650
+F 0 "U0" H 1850 2525 50  0000 C CNN
+F 1 "Ada32u4" H 1850 2434 50  0000 C CNN
+F 2 "Ada32u4:Ada32u4" H 1850 2250 50  0001 C CNN
+F 3 "" H 1850 2250 50  0001 C CNN
+	1    1850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1400 1000 1400
+Wire Wire Line
+	1300 1500 1000 1500
+Wire Wire Line
+	1300 1600 1000 1600
+Wire Wire Line
+	1300 1700 1000 1700
+Wire Wire Line
+	1300 1800 1000 1800
+Text Label 1000 1400 0    50   ~ 0
+R4
+Text Label 1000 1500 0    50   ~ 0
+R3
+Text Label 1000 1600 0    50   ~ 0
+R2
+Text Label 1000 1700 0    50   ~ 0
+R1
+Text Label 1000 1800 0    50   ~ 0
+R0
+NoConn ~ 1300 1300
+NoConn ~ 2400 1000
+NoConn ~ 2400 1200
+NoConn ~ 1300 1000
+NoConn ~ 1300 1100
+NoConn ~ 1300 1200
+Wire Wire Line
+	1800 2450 1800 2600
+Text Label 1800 2600 3    50   ~ 0
+GND
+Wire Wire Line
+	2400 1300 2700 1300
+Wire Wire Line
+	2400 1400 2700 1400
+Wire Wire Line
+	2400 1500 2700 1500
+Wire Wire Line
+	2400 1600 2700 1600
+Wire Wire Line
+	2400 1700 2700 1700
+Wire Wire Line
+	2400 1800 2700 1800
+Wire Wire Line
+	2400 2000 2700 2000
+Wire Wire Line
+	2400 2100 2700 2100
+Wire Wire Line
+	2400 2200 2700 2200
+Wire Wire Line
+	2400 2300 2700 2300
+Wire Wire Line
+	2100 2450 2100 2600
+Wire Wire Line
+	2000 2450 2000 2600
+Wire Wire Line
+	1900 2450 1900 2600
+Wire Wire Line
+	1300 2200 1000 2200
+Wire Wire Line
+	1300 2100 1000 2100
+NoConn ~ 1300 2000
+Wire Wire Line
+	1300 2300 1000 2300
+Wire Wire Line
+	2400 1100 2600 1100
+Text Label 2700 1100 0    50   ~ 0
+GND
+Text Label 1000 2300 0    50   ~ 0
+GND
+Text Label 2700 1300 0    50   ~ 0
+C15
+Text Label 2700 1400 0    50   ~ 0
+C14
+Text Label 2700 1500 0    50   ~ 0
+C13
+Text Label 2700 1600 0    50   ~ 0
+C12
+Text Label 2700 1700 0    50   ~ 0
+C11
+Text Label 2700 1800 0    50   ~ 0
+C10
+Text Label 2700 2000 0    50   ~ 0
+C9
+Text Label 2700 2100 0    50   ~ 0
+C8
+Text Label 2700 2200 0    50   ~ 0
+C7
+Text Label 2700 2300 0    50   ~ 0
+C6
+Text Label 2100 2600 3    50   ~ 0
+C5
+Text Label 2000 2600 3    50   ~ 0
+C4
+Text Label 1900 2600 3    50   ~ 0
+C3
+Text Label 1000 2200 0    50   ~ 0
+C2
+Text Label 1000 2100 0    50   ~ 0
+C1
+Wire Wire Line
+	1300 1900 1000 1900
+Text Label 1000 1900 0    50   ~ 0
+C0
+$Comp
+L power:GND #PWR0101
+U 1 1 5C6BDB0C
+P 2600 1100
+F 0 "#PWR0101" H 2600 850 50  0001 C CNN
+F 1 "GND" V 2605 972 50  0000 R CNN
+F 2 "" H 2600 1100 50  0001 C CNN
+F 3 "" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4_0
+U 1 1 5C6C9FED
+P 4950 5300
+F 0 "J4_0" V 4797 5348 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 4888 5348 50  0000 L CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 4950 5300 50  0001 C CNN
+F 3 "~" H 4950 5300 50  0001 C CNN
+	1    4950 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 5100 4850 5100
+Wire Wire Line
+	4950 5100 5150 5100
+Connection ~ 5150 5100
+Wire Wire Line
+	5150 1200 5150 1950
+$Comp
+L Connector:Conn_01x02_Female J3_0
+U 1 1 5C77E4EE
+P 4950 4100
+F 0 "J3_0" V 4797 4148 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 4888 4148 50  0000 L CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 4950 4100 50  0001 C CNN
+F 3 "~" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2_0
+U 1 1 5C77F3E6
+P 4950 2900
+F 0 "J2_0" V 4797 2948 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 4888 2948 50  0000 L CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 4950 2900 50  0001 C CNN
+F 3 "~" H 4950 2900 50  0001 C CNN
+	1    4950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1_0
+U 1 1 5C77FF14
+P 4950 2150
+F 0 "J1_0" V 4797 2198 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 4888 2198 50  0000 L CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 4950 2150 50  0001 C CNN
+F 3 "~" H 4950 2150 50  0001 C CNN
+	1    4950 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J0_0
+U 1 1 5C780A51
+P 4950 1400
+F 0 "J0_0" V 4797 1448 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 4888 1448 50  0000 L CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H-External-Switch-Pad" H 4950 1400 50  0001 C CNN
+F 3 "~" H 4950 1400 50  0001 C CNN
+	1    4950 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1200 4950 1200
+Wire Wire Line
+	4850 1200 4650 1200
+Wire Wire Line
+	4950 1950 5150 1950
+Connection ~ 5150 1950
+Wire Wire Line
+	5150 1950 5150 2700
+Wire Wire Line
+	4850 1950 4650 1950
+Wire Wire Line
+	4950 2700 5150 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5150 3900
+Wire Wire Line
+	4850 2700 4650 2700
+Wire Wire Line
+	4950 3900 5150 3900
+Connection ~ 5150 3900
+Wire Wire Line
+	5150 3900 5150 5100
+Wire Wire Line
+	4850 3900 4650 3900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C82F821
+P 2600 1100
+F 0 "#FLG0101" H 2600 1175 50  0001 C CNN
+F 1 "PWR_FLAG" V 2600 1228 50  0000 L CNN
+F 2 "" H 2600 1100 50  0001 C CNN
+F 3 "~" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5100 5150 5750
+Wire Wire Line
+	5850 5100 5850 5750
+Wire Wire Line
+	6550 5100 6550 5750
+Wire Wire Line
+	7250 5100 7250 5750
+Wire Wire Line
+	7950 5100 7950 5750
+Wire Wire Line
+	8650 5100 8650 5750
+Wire Wire Line
+	9350 5100 9350 5500
+Wire Wire Line
+	10050 5100 10050 5750
+Wire Wire Line
+	10750 5100 10750 5750
+Wire Wire Line
+	11450 5100 11450 5750
+Wire Wire Line
+	12150 5100 12150 5500
+Wire Wire Line
+	12850 5100 12850 5750
+Wire Wire Line
+	13550 5100 13550 5750
+Wire Wire Line
+	14250 5100 14250 5500
+Wire Wire Line
+	14950 5100 14950 5750
+Wire Wire Line
+	15650 5100 15650 5500
+NoConn ~ 2400 1900
+NoConn ~ 1700 2450
+Connection ~ 2600 1100
+Wire Wire Line
+	2600 1100 2700 1100
+$Comp
+L Switch:SW_Push SW4_10_USCmd0
+U 1 1 5C80FCE9
+P 11950 5500
+F 0 "SW4_10_USCmd0" H 11950 5785 50  0000 C CNN
+F 1 "SW_Push" H 11950 5694 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 11950 5700 50  0001 C CNN
+F 3 "" H 11950 5700 50  0001 C CNN
+	1    11950 5500
+	1    0    0    1   
+$EndComp
+Connection ~ 12150 5500
+Wire Wire Line
+	12150 5500 12150 5750
+Wire Wire Line
+	11750 5500 11750 5100
+$Comp
+L Switch:SW_Push SW3_15_USSft0
+U 1 1 5C836F94
+P 15450 4300
+F 0 "SW3_15_USSft0" H 15300 4600 50  0000 C CNN
+F 1 "SW_Push" H 15450 4494 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_275H-v-flip" H 15450 4500 50  0001 C CNN
+F 3 "" H 15450 4500 50  0001 C CNN
+	1    15450 4300
+	1    0    0    1   
+$EndComp
+Connection ~ 15650 4300
+Wire Wire Line
+	15650 4300 15650 5100
+Wire Wire Line
+	15250 4300 15250 3900
+$Comp
+L Switch:SW_Push SW2_15_USEnt0
+U 1 1 5C86C70E
+P 15450 3100
+F 0 "SW2_15_USEnt0" H 15300 3400 50  0000 C CNN
+F 1 "SW_Push" H 15450 3294 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_225H-v-flip" H 15450 3300 50  0001 C CNN
+F 3 "" H 15450 3300 50  0001 C CNN
+	1    15450 3100
+	1    0    0    1   
+$EndComp
+Connection ~ 15650 3100
+Wire Wire Line
+	15650 3100 15650 3900
+Wire Wire Line
+	15250 3100 15250 2700
+Wire Wire Line
+	4100 800  4650 800 
+$Comp
+L Device:D D0_0
+U 1 1 5C8D3C5F
+P 4650 1050
+F 0 "D0_0" V 4604 1129 50  0000 L CNN
+F 1 "D" V 4695 1129 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 1050 50  0001 C CNN
+F 3 "~" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 900  4650 800 
+Connection ~ 4650 800 
+Wire Wire Line
+	4650 800  5450 800 
+Wire Wire Line
+	5450 900  5450 800 
+Connection ~ 5450 800 
+Wire Wire Line
+	5450 800  6150 800 
+Wire Wire Line
+	6150 900  6150 800 
+Connection ~ 6150 800 
+Wire Wire Line
+	6150 800  6850 800 
+Wire Wire Line
+	6850 900  6850 800 
+Connection ~ 6850 800 
+Wire Wire Line
+	6850 800  7550 800 
+Wire Wire Line
+	7550 900  7550 800 
+Connection ~ 7550 800 
+Wire Wire Line
+	7550 800  8250 800 
+Wire Wire Line
+	8250 900  8250 800 
+Connection ~ 8250 800 
+Wire Wire Line
+	8250 800  8950 800 
+Wire Wire Line
+	8950 900  8950 800 
+Connection ~ 8950 800 
+Wire Wire Line
+	8950 800  9650 800 
+Wire Wire Line
+	9650 900  9650 800 
+Connection ~ 9650 800 
+Wire Wire Line
+	9650 800  10350 800 
+Wire Wire Line
+	10350 900  10350 800 
+Connection ~ 10350 800 
+Wire Wire Line
+	10350 800  11050 800 
+Wire Wire Line
+	11050 900  11050 800 
+Connection ~ 11050 800 
+Wire Wire Line
+	11050 800  11750 800 
+Wire Wire Line
+	11750 900  11750 800 
+Connection ~ 11750 800 
+Wire Wire Line
+	11750 800  12450 800 
+Wire Wire Line
+	12450 800  12450 900 
+Connection ~ 12450 800 
+Wire Wire Line
+	12450 800  13150 800 
+Wire Wire Line
+	13150 900  13150 800 
+Connection ~ 13150 800 
+Wire Wire Line
+	13150 800  13850 800 
+Wire Wire Line
+	13850 900  13850 800 
+Connection ~ 13850 800 
+Wire Wire Line
+	13850 800  14550 800 
+Wire Wire Line
+	14550 900  14550 800 
+Connection ~ 14550 800 
+Wire Wire Line
+	14550 800  15250 800 
+Wire Wire Line
+	15250 800  15250 900 
+Wire Wire Line
+	4100 1550 4650 1550
+Wire Wire Line
+	4650 1650 4650 1550
+Connection ~ 4650 1550
+Wire Wire Line
+	4650 1550 5450 1550
+Wire Wire Line
+	5450 1650 5450 1550
+Connection ~ 5450 1550
+Wire Wire Line
+	5450 1550 6150 1550
+Wire Wire Line
+	6150 1650 6150 1550
+Connection ~ 6150 1550
+Wire Wire Line
+	6150 1550 6850 1550
+Wire Wire Line
+	6850 1650 6850 1550
+Connection ~ 6850 1550
+Wire Wire Line
+	6850 1550 7550 1550
+Wire Wire Line
+	7550 1650 7550 1550
+Connection ~ 7550 1550
+Wire Wire Line
+	7550 1550 8250 1550
+Wire Wire Line
+	8250 1650 8250 1550
+Connection ~ 8250 1550
+Wire Wire Line
+	8250 1550 8950 1550
+Wire Wire Line
+	8950 1650 8950 1550
+Connection ~ 8950 1550
+Wire Wire Line
+	8950 1550 9650 1550
+Wire Wire Line
+	9650 1650 9650 1550
+Connection ~ 9650 1550
+Wire Wire Line
+	9650 1550 10350 1550
+Wire Wire Line
+	10350 1650 10350 1550
+Connection ~ 10350 1550
+Wire Wire Line
+	10350 1550 11050 1550
+Wire Wire Line
+	11050 1650 11050 1550
+Connection ~ 11050 1550
+Wire Wire Line
+	11050 1550 11750 1550
+Wire Wire Line
+	11750 1650 11750 1550
+Connection ~ 11750 1550
+Wire Wire Line
+	11750 1550 12450 1550
+Wire Wire Line
+	12450 1650 12450 1550
+Connection ~ 12450 1550
+Wire Wire Line
+	12450 1550 13150 1550
+Wire Wire Line
+	13150 1650 13150 1550
+Connection ~ 13150 1550
+Wire Wire Line
+	13150 1550 13850 1550
+Wire Wire Line
+	13850 1650 13850 1550
+Connection ~ 13850 1550
+Wire Wire Line
+	13850 1550 14550 1550
+Wire Wire Line
+	14550 1650 14550 1550
+Connection ~ 14550 1550
+Wire Wire Line
+	14550 1550 15250 1550
+Wire Wire Line
+	15250 1650 15250 1550
+Wire Wire Line
+	4100 2300 4650 2300
+Wire Wire Line
+	4650 2400 4650 2300
+Connection ~ 4650 2300
+Wire Wire Line
+	4650 2300 5450 2300
+Wire Wire Line
+	5450 2400 5450 2300
+Connection ~ 5450 2300
+Wire Wire Line
+	5450 2300 6150 2300
+Wire Wire Line
+	6150 2400 6150 2300
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 2300 6850 2300
+Wire Wire Line
+	6850 2400 6850 2300
+Connection ~ 6850 2300
+Wire Wire Line
+	6850 2300 7550 2300
+Wire Wire Line
+	7550 2400 7550 2300
+Connection ~ 7550 2300
+Wire Wire Line
+	7550 2300 8250 2300
+Wire Wire Line
+	8250 2400 8250 2300
+Connection ~ 8250 2300
+Wire Wire Line
+	8250 2300 8950 2300
+Wire Wire Line
+	8950 2400 8950 2300
+Connection ~ 8950 2300
+Wire Wire Line
+	8950 2300 9650 2300
+Wire Wire Line
+	9650 2400 9650 2300
+Connection ~ 9650 2300
+Wire Wire Line
+	9650 2300 10350 2300
+Wire Wire Line
+	10350 2400 10350 2300
+Connection ~ 10350 2300
+Wire Wire Line
+	10350 2300 11050 2300
+Wire Wire Line
+	11050 2400 11050 2300
+Connection ~ 11050 2300
+Wire Wire Line
+	11050 2300 11750 2300
+Wire Wire Line
+	11750 2400 11750 2300
+Connection ~ 11750 2300
+Wire Wire Line
+	11750 2300 12450 2300
+Wire Wire Line
+	12450 2400 12450 2300
+Connection ~ 12450 2300
+Wire Wire Line
+	12450 2300 13150 2300
+Wire Wire Line
+	13150 2400 13150 2300
+Connection ~ 13150 2300
+Wire Wire Line
+	13150 2300 13850 2300
+Wire Wire Line
+	13850 2300 13850 2400
+Connection ~ 13850 2300
+Wire Wire Line
+	13850 2300 14550 2300
+Wire Wire Line
+	14550 2400 14550 2300
+Connection ~ 14550 2300
+Wire Wire Line
+	14550 2300 15250 2300
+Connection ~ 15250 2700
+Wire Wire Line
+	15250 2400 15250 2300
+Wire Wire Line
+	4100 3500 4650 3500
+Wire Wire Line
+	4650 3600 4650 3500
+Connection ~ 4650 3500
+Wire Wire Line
+	4650 3500 5450 3500
+Wire Wire Line
+	5450 3600 5450 3500
+Connection ~ 5450 3500
+Wire Wire Line
+	5450 3500 6150 3500
+Wire Wire Line
+	6150 3600 6150 3500
+Connection ~ 6150 3500
+Wire Wire Line
+	6150 3500 6850 3500
+Wire Wire Line
+	6850 3600 6850 3500
+Connection ~ 6850 3500
+Wire Wire Line
+	6850 3500 7550 3500
+Wire Wire Line
+	7550 3600 7550 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3500 8250 3500
+Wire Wire Line
+	8250 3600 8250 3500
+Connection ~ 8250 3500
+Wire Wire Line
+	8250 3500 8950 3500
+Wire Wire Line
+	8950 3600 8950 3500
+Connection ~ 8950 3500
+Wire Wire Line
+	8950 3500 9650 3500
+Wire Wire Line
+	9650 3600 9650 3500
+Connection ~ 9650 3500
+Wire Wire Line
+	9650 3500 10350 3500
+Wire Wire Line
+	10350 3600 10350 3500
+Connection ~ 10350 3500
+Wire Wire Line
+	10350 3500 11050 3500
+Wire Wire Line
+	11050 3600 11050 3500
+Connection ~ 11050 3500
+Wire Wire Line
+	11050 3500 11750 3500
+Wire Wire Line
+	11750 3600 11750 3500
+Connection ~ 11750 3500
+Wire Wire Line
+	11750 3500 12450 3500
+Wire Wire Line
+	12450 3600 12450 3500
+Connection ~ 12450 3500
+Wire Wire Line
+	12450 3500 13150 3500
+Wire Wire Line
+	13150 3600 13150 3500
+Connection ~ 13150 3500
+Wire Wire Line
+	13150 3500 13850 3500
+Wire Wire Line
+	13850 3500 13850 3600
+Connection ~ 13850 3500
+Wire Wire Line
+	13850 3500 14550 3500
+Wire Wire Line
+	14550 3600 14550 3500
+Connection ~ 14550 3500
+Wire Wire Line
+	14550 3500 15250 3500
+Connection ~ 15250 3900
+Wire Wire Line
+	15250 3600 15250 3500
+Wire Wire Line
+	4100 4700 4650 4700
+Wire Wire Line
+	4650 4800 4650 4700
+Connection ~ 4650 4700
+Wire Wire Line
+	4650 4700 5450 4700
+Wire Wire Line
+	5450 4800 5450 4700
+Connection ~ 5450 4700
+Wire Wire Line
+	5450 4700 6150 4700
+Wire Wire Line
+	6150 4800 6150 4700
+Connection ~ 6150 4700
+Wire Wire Line
+	6150 4700 6850 4700
+Wire Wire Line
+	6850 4800 6850 4700
+Connection ~ 6850 4700
+Wire Wire Line
+	6850 4700 7550 4700
+Wire Wire Line
+	7550 4800 7550 4700
+Connection ~ 7550 4700
+Wire Wire Line
+	7550 4700 8250 4700
+Wire Wire Line
+	8250 4800 8250 4700
+Connection ~ 8250 4700
+Wire Wire Line
+	8250 4700 8950 4700
+Wire Wire Line
+	8950 4800 8950 4700
+Connection ~ 8950 4700
+Wire Wire Line
+	8950 4700 9650 4700
+Wire Wire Line
+	9650 4800 9650 4700
+Connection ~ 9650 4700
+Wire Wire Line
+	9650 4700 10350 4700
+Wire Wire Line
+	10350 4800 10350 4700
+Connection ~ 10350 4700
+Wire Wire Line
+	10350 4700 11050 4700
+Wire Wire Line
+	11050 4800 11050 4700
+Connection ~ 11050 4700
+Wire Wire Line
+	11050 4700 11750 4700
+Connection ~ 11750 5100
+Wire Wire Line
+	11750 4800 11750 4700
+Connection ~ 11750 4700
+Wire Wire Line
+	11750 4700 12450 4700
+Wire Wire Line
+	12450 4800 12450 4700
+Connection ~ 12450 4700
+Wire Wire Line
+	12450 4700 13150 4700
+Wire Wire Line
+	13150 4800 13150 4700
+Connection ~ 13150 4700
+Wire Wire Line
+	13150 4700 13850 4700
+Wire Wire Line
+	13850 4800 13850 4700
+Connection ~ 13850 4700
+Wire Wire Line
+	13850 4700 14550 4700
+Wire Wire Line
+	14550 4800 14550 4700
+Connection ~ 14550 4700
+Wire Wire Line
+	14550 4700 15250 4700
+Wire Wire Line
+	15250 4800 15250 4700
+$Comp
+L Switch:SW_Push SW4_6_USSp0
+U 1 1 5D85FFE7
+P 9150 5500
+F 0 "SW4_6_USSp0" H 9150 5785 50  0000 C CNN
+F 1 "SW_Push" H 9150 5694 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_625H-v-flip" H 9150 5700 50  0001 C CNN
+F 3 "" H 9150 5700 50  0001 C CNN
+	1    9150 5500
+	1    0    0    1   
+$EndComp
+Connection ~ 9350 5500
+Wire Wire Line
+	9350 5500 9350 5750
+Wire Wire Line
+	8950 5500 8950 5100
+Connection ~ 8950 5100
+$Comp
+L Switch:SW_Push SW4_13_AppL0
+U 1 1 5D87C1DF
+P 14050 5500
+F 0 "SW4_13_AppL0" H 14050 5785 50  0000 C CNN
+F 1 "SW_Push" H 14050 5694 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 14050 5700 50  0001 C CNN
+F 3 "" H 14050 5700 50  0001 C CNN
+	1    14050 5500
+	1    0    0    1   
+$EndComp
+Connection ~ 14250 5500
+Wire Wire Line
+	14250 5500 14250 5750
+$Comp
+L Switch:SW_Push SW4_15_AppR0
+U 1 1 5D87D227
+P 15450 5500
+F 0 "SW4_15_AppR0" H 15450 5785 50  0000 C CNN
+F 1 "SW_Push" H 15450 5694 50  0000 C CNN
+F 2 "UniversalKeySwitch:Triple_PCB_100H" H 15450 5700 50  0001 C CNN
+F 3 "" H 15450 5700 50  0001 C CNN
+	1    15450 5500
+	1    0    0    1   
+$EndComp
+Connection ~ 15650 5500
+Wire Wire Line
+	15650 5500 15650 5750
+Wire Wire Line
+	15250 5500 15250 5100
+Connection ~ 15250 5100
+Wire Wire Line
+	13850 5500 13850 5100
+Connection ~ 13850 5100
+$EndSCHEMATC

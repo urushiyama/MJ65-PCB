@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Ada32u4)(type Legacy)(uri /Users/macuser/Documents/DIY/keyboards/MJ65/MJ65/Ada32u4.lib)(options "")(descr ""))
+  (lib (name MJ65-rescue)(type Legacy)(uri ${KIPRJMOD}/MJ65-rescue.lib)(options "")(descr ""))
+)

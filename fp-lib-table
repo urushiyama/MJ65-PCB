@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type Github)(uri https://github.com/keebio/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name Ada32u4)(type KiCad)(uri ${KIPRJMOD}/Ada32u4.pretty)(options "")(descr ""))
+  (lib (name UniversalKeySwitch)(type KiCad)(uri ${KIPRJMOD}/UniversalKeySwitch.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo.pretty)(options "")(descr ""))
+)

@@ -1889,45 +1889,45 @@ C15
 $Comp
 L Device:D D4_0
 U 1 1 5C9DD1BC
-P 4650 4950
-F 0 "D4_0" V 4604 5078 50  0000 L CNN
-F 1 "DIODE" V 4695 5078 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Diode-dual" H 4650 4950 50  0001 C CNN
-F 3 "~" H 4650 4950 50  0001 C CNN
-	1    4650 4950
+P 4750 4950
+F 0 "D4_0" V 4704 5078 50  0000 L CNN
+F 1 "DIODE" V 4795 5078 50  0000 L CNN
+F 2 "Keebio-Parts (fork):Diode-dual" H 4750 4950 50  0001 C CNN
+F 3 "~" H 4750 4950 50  0001 C CNN
+	1    4750 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D D3_0
 U 1 1 5CA06939
-P 4650 3750
-F 0 "D3_0" V 4604 3878 50  0000 L CNN
-F 1 "DIODE" V 4695 3878 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Diode-dual" H 4650 3750 50  0001 C CNN
-F 3 "~" H 4650 3750 50  0001 C CNN
-	1    4650 3750
+P 4750 3750
+F 0 "D3_0" V 4704 3878 50  0000 L CNN
+F 1 "DIODE" V 4795 3878 50  0000 L CNN
+F 2 "Keebio-Parts (fork):Diode-dual" H 4750 3750 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D D2_0
 U 1 1 5CA1A1E0
-P 4650 2550
-F 0 "D2_0" V 4604 2678 50  0000 L CNN
-F 1 "DIODE" V 4695 2678 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Diode-dual" H 4650 2550 50  0001 C CNN
-F 3 "~" H 4650 2550 50  0001 C CNN
-	1    4650 2550
+P 4750 2550
+F 0 "D2_0" V 4704 2678 50  0000 L CNN
+F 1 "DIODE" V 4795 2678 50  0000 L CNN
+F 2 "Keebio-Parts (fork):Diode-dual" H 4750 2550 50  0001 C CNN
+F 3 "~" H 4750 2550 50  0001 C CNN
+	1    4750 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D D1_0
 U 1 1 5CA2C5A4
-P 4650 1800
-F 0 "D1_0" V 4604 1928 50  0000 L CNN
-F 1 "DIODE" V 4695 1928 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Diode-dual" H 4650 1800 50  0001 C CNN
-F 3 "~" H 4650 1800 50  0001 C CNN
-	1    4650 1800
+P 4750 1800
+F 0 "D1_0" V 4704 1928 50  0000 L CNN
+F 1 "DIODE" V 4795 1928 50  0000 L CNN
+F 2 "Keebio-Parts (fork):Diode-dual" H 4750 1800 50  0001 C CNN
+F 3 "~" H 4750 1800 50  0001 C CNN
+	1    4750 1800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2056,93 +2056,6 @@ F 3 "" H 2600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J4_0
-U 1 1 5C6C9FED
-P 4950 5300
-F 0 "J4_0" V 4797 5348 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4888 5348 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 5300 50  0001 C CNN
-F 3 "~" H 4950 5300 50  0001 C CNN
-	1    4950 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4650 5100 4850 5100
-Wire Wire Line
-	4950 5100 5150 5100
-Connection ~ 5150 5100
-Wire Wire Line
-	5150 1200 5150 1950
-$Comp
-L Connector:Conn_01x02_Female J3_0
-U 1 1 5C77E4EE
-P 4950 4100
-F 0 "J3_0" V 4797 4148 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4888 4148 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 4100 50  0001 C CNN
-F 3 "~" H 4950 4100 50  0001 C CNN
-	1    4950 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J2_0
-U 1 1 5C77F3E6
-P 4950 2900
-F 0 "J2_0" V 4797 2948 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4888 2948 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 2900 50  0001 C CNN
-F 3 "~" H 4950 2900 50  0001 C CNN
-	1    4950 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J1_0
-U 1 1 5C77FF14
-P 4950 2150
-F 0 "J1_0" V 4797 2198 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4888 2198 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 2150 50  0001 C CNN
-F 3 "~" H 4950 2150 50  0001 C CNN
-	1    4950 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J0_0
-U 1 1 5C780A51
-P 4950 1400
-F 0 "J0_0" V 4797 1448 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4888 1448 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 1400 50  0001 C CNN
-F 3 "~" H 4950 1400 50  0001 C CNN
-	1    4950 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5150 1200 4950 1200
-Wire Wire Line
-	4850 1200 4650 1200
-Wire Wire Line
-	4950 1950 5150 1950
-Connection ~ 5150 1950
-Wire Wire Line
-	5150 1950 5150 2700
-Wire Wire Line
-	4850 1950 4650 1950
-Wire Wire Line
-	4950 2700 5150 2700
-Connection ~ 5150 2700
-Wire Wire Line
-	5150 2700 5150 3900
-Wire Wire Line
-	4850 2700 4650 2700
-Wire Wire Line
-	4950 3900 5150 3900
-Connection ~ 5150 3900
-Wire Wire Line
-	5150 3900 5150 5100
-Wire Wire Line
-	4850 3900 4650 3900
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C82F821
 P 2600 1100
@@ -2153,8 +2066,6 @@ F 3 "~" H 2600 1100 50  0001 C CNN
 	1    2600 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 5100 5150 5750
 Wire Wire Line
 	5850 5100 5850 5750
 Wire Wire Line
@@ -2178,9 +2089,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 5100 12850 5750
 Wire Wire Line
-	13550 5100 13550 5750
-Wire Wire Line
-	14250 5100 14250 5500
+	13550 5100 13550 5500
 Wire Wire Line
 	14950 5100 14950 5750
 Wire Wire Line
@@ -2239,23 +2148,23 @@ Wire Wire Line
 Wire Wire Line
 	15250 3100 15250 2700
 Wire Wire Line
-	4100 800  4650 800 
+	4100 800  4750 800 
 $Comp
 L Device:D D0_0
 U 1 1 5C8D3C5F
-P 4650 1050
-F 0 "D0_0" V 4604 1129 50  0000 L CNN
-F 1 "D" V 4695 1129 50  0000 L CNN
-F 2 "Keebio-Parts (fork):Diode-dual" H 4650 1050 50  0001 C CNN
-F 3 "~" H 4650 1050 50  0001 C CNN
-	1    4650 1050
+P 4750 1050
+F 0 "D0_0" V 4704 1129 50  0000 L CNN
+F 1 "D" V 4795 1129 50  0000 L CNN
+F 2 "Keebio-Parts (fork):Diode-dual" H 4750 1050 50  0001 C CNN
+F 3 "~" H 4750 1050 50  0001 C CNN
+	1    4750 1050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4650 900  4650 800 
-Connection ~ 4650 800 
+	4750 900  4750 800 
+Connection ~ 4750 800 
 Wire Wire Line
-	4650 800  5450 800 
+	4750 800  5450 800 
 Wire Wire Line
 	5450 900  5450 800 
 Connection ~ 5450 800 
@@ -2329,12 +2238,12 @@ Wire Wire Line
 Wire Wire Line
 	15250 800  15250 900 
 Wire Wire Line
-	4100 1550 4650 1550
+	4100 1550 4750 1550
 Wire Wire Line
-	4650 1650 4650 1550
-Connection ~ 4650 1550
+	4750 1650 4750 1550
+Connection ~ 4750 1550
 Wire Wire Line
-	4650 1550 5450 1550
+	4750 1550 5450 1550
 Wire Wire Line
 	5450 1650 5450 1550
 Connection ~ 5450 1550
@@ -2408,12 +2317,12 @@ Wire Wire Line
 Wire Wire Line
 	15250 1650 15250 1550
 Wire Wire Line
-	4100 2300 4650 2300
+	4100 2300 4750 2300
 Wire Wire Line
-	4650 2400 4650 2300
-Connection ~ 4650 2300
+	4750 2400 4750 2300
+Connection ~ 4750 2300
 Wire Wire Line
-	4650 2300 5450 2300
+	4750 2300 5450 2300
 Wire Wire Line
 	5450 2400 5450 2300
 Connection ~ 5450 2300
@@ -2488,12 +2397,12 @@ Connection ~ 15250 2700
 Wire Wire Line
 	15250 2400 15250 2300
 Wire Wire Line
-	4100 3500 4650 3500
+	4100 3500 4750 3500
 Wire Wire Line
-	4650 3600 4650 3500
-Connection ~ 4650 3500
+	4750 3600 4750 3500
+Connection ~ 4750 3500
 Wire Wire Line
-	4650 3500 5450 3500
+	4750 3500 5450 3500
 Wire Wire Line
 	5450 3600 5450 3500
 Connection ~ 5450 3500
@@ -2568,12 +2477,12 @@ Connection ~ 15250 3900
 Wire Wire Line
 	15250 3600 15250 3500
 Wire Wire Line
-	4100 4700 4650 4700
+	4100 4700 4750 4700
 Wire Wire Line
-	4650 4800 4650 4700
-Connection ~ 4650 4700
+	4750 4800 4750 4700
+Connection ~ 4750 4700
 Wire Wire Line
-	4650 4700 5450 4700
+	4750 4700 5450 4700
 Wire Wire Line
 	5450 4800 5450 4700
 Connection ~ 5450 4700
@@ -2665,20 +2574,6 @@ Wire Wire Line
 	8950 5500 8950 5100
 Connection ~ 8950 5100
 $Comp
-L Switch:SW_Push SW4_13_AppL0
-U 1 1 5D87C1DF
-P 14050 5500
-F 0 "SW4_13_AppL0" H 14050 5785 50  0000 C CNN
-F 1 "SW_Push" H 14050 5694 50  0000 C CNN
-F 2 "Keebio-Parts (fork):Triple_PCB_100H" H 14050 5700 50  0001 C CNN
-F 3 "" H 14050 5700 50  0001 C CNN
-	1    14050 5500
-	1    0    0    1   
-$EndComp
-Connection ~ 14250 5500
-Wire Wire Line
-	14250 5500 14250 5750
-$Comp
 L Switch:SW_Push SW4_15_AppR0
 U 1 1 5D87D227
 P 15450 5500
@@ -2696,6 +2591,90 @@ Wire Wire Line
 	15250 5500 15250 5100
 Connection ~ 15250 5100
 Wire Wire Line
-	13850 5500 13850 5100
-Connection ~ 13850 5100
+	14250 5100 14250 5750
+$Comp
+L Switch:SW_Push SW4_12_AppL0
+U 1 1 5C8721BD
+P 13350 5500
+F 0 "SW4_12_AppL0" H 13350 5785 50  0000 C CNN
+F 1 "SW_Push" H 13350 5694 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H" H 13350 5700 50  0001 C CNN
+F 3 "" H 13350 5700 50  0001 C CNN
+	1    13350 5500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13150 5500 13150 5100
+$Comp
+L Switch:SW_Push SW0_0
+U 1 1 5C8A672D
+P 4950 1200
+F 0 "SW0_0" H 4950 1485 50  0000 C CNN
+F 1 "SW_Push" H 4950 1394 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 1400 50  0001 C CNN
+F 3 "" H 4950 1400 50  0001 C CNN
+	1    4950 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1_0
+U 1 1 5C95737E
+P 4950 1950
+F 0 "SW1_0" H 4950 2235 50  0000 C CNN
+F 1 "SW_Push" H 4950 2144 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 2150 50  0001 C CNN
+F 3 "" H 4950 2150 50  0001 C CNN
+	1    4950 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2_0
+U 1 1 5C9C51B4
+P 4950 2700
+F 0 "SW2_0" H 4950 2985 50  0000 C CNN
+F 1 "SW_Push" H 4950 2894 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 2900 50  0001 C CNN
+F 3 "" H 4950 2900 50  0001 C CNN
+	1    4950 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3_0
+U 1 1 5CA3226B
+P 4950 3900
+F 0 "SW3_0" H 4950 4185 50  0000 C CNN
+F 1 "SW_Push" H 4950 4094 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 4100 50  0001 C CNN
+F 3 "" H 4950 4100 50  0001 C CNN
+	1    4950 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4_0
+U 1 1 5CA9D2CE
+P 4950 5100
+F 0 "SW4_0" H 4950 5385 50  0000 C CNN
+F 1 "SW_Push" H 4950 5294 50  0000 C CNN
+F 2 "Keebio-Parts (fork):Triple_PCB_100H-External-Switch-Pad" H 4950 5300 50  0001 C CNN
+F 3 "" H 4950 5300 50  0001 C CNN
+	1    4950 5100
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5150 5100
+Wire Wire Line
+	5150 5100 5150 5750
+Connection ~ 5150 3900
+Wire Wire Line
+	5150 3900 5150 5100
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5150 3900
+Wire Wire Line
+	5150 1200 5150 1950
+Connection ~ 5150 1950
+Wire Wire Line
+	5150 1950 5150 2700
+Connection ~ 13550 5500
+Wire Wire Line
+	13550 5500 13550 5750
 $EndSCHEMATC
